@@ -1,0 +1,59 @@
+header {
+    background-color: black;
+    color:yellow;
+    padding: 20px;
+}
+
+nav {
+    background-color: crimson;
+    padding: 15px;
+}
+.opçoes a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+.opçoes a:hover{
+    color: white;
+}
+summary {
+    cursor: pointer;
+    color: white;
+}
+body{
+    background-image: url(../img/Fundo\ Chique\ de\ Lanchonete.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.foto {
+    background-color: crimson;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.foto figure {
+    margin: 0;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+figcaption{
+    color: yellow;
+}
+h2{
+    color: yellow;
+}

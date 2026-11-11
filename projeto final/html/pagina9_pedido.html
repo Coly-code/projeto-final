@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../css/pagina9_pedido.css">
+</head>
+<body>
+     <header>
+    <h1>Podrão Chique</h1>
+     <nav>
+        <details>
+            <summary>menu</summary>
+            <div class="opçoes">
+                <a href="pagina1_inicio.html">inicio</a><br>
+                <a href="pagina2_cardapio_principal.html">cardapio principal</a><br>
+                <a href="pagina3_lanches_caseiros.html">lanches da casa</a><br>
+                <a href="pagina4_bebidas_e_acompanahementos.html">acompanhamentos e bebidas</a><br>
+                <a href="pagina5_promoçoes_e_combos.html">promoçoes</a><br>
+                <a href="pagina6_sobre_nos.html">sobre nos</a><br>
+                <a href="pagina7_localizaçao.html">localizaçao</a><br>
+                <a href="pagina8_galeria_de_fotos.html">galeria de fotos</a><br>
+                <a href="pagina9_pedido.html">pedidos</a><br>
+                <a href="pagina10_contatos.html">contatos</a><br>
+            </div>
+        </details>
+    </nav>
+</header><br>
+<main>
+    <h2>Mande seu pedido aqui</h2>
+    <section>
+        <div class="formulario pedido">
+        <form>
+        <label for="nome">nome completo:</label>
+        <input type="text" name="nome completo"placeholder="digite seu nome completo"required><br>
+        <label for="cpf"> seu CPF</label>
+        <input type="text"name="cpf"placeholder="000.000.000-00"required><br>
+        <label for="telefone">telefone</label>
+        <input type="text" name="telefone" placeholder="telefone"required><br>
+        <label for="cep">seu cep</label>
+        <input type="text"name="cep" placeholder="digite seu cep"required><br>
+        <label for="bairro">seu bairro</label>
+        <input type="text" name="bairro" placeholder="seu barrio"required><br>
+        <label for="rua">nome da rua</label>
+        <input type="text" name="rua" placeholder="nome da rua" required><br>
+        <label for="numero de residencia">numero de residencia</label>
+         <input type="text" name="numero de residencia" placeholder="numero de residencia" required><br>
+         <label>escolha o produto</label>
+         <input list="produto" placeholder="Escolha o produto">
+         <datalist id="produto">
+    <option value="X-Burger">
+    <option value="X-Salada">
+    <option value="X-Bacon">
+    <option value="X-Tudo">
+    <option value="X-Duplo">
+    <option value="X-Picanha">
+    <option value="X-Picanha Duplo">
+    <option value="X-Monstro">
+    <option value="Coxinha">
+    <option value="Pastel">
+    <option value="Bolinha de queijo">
+    <option value="Bolinho de aipim">
+    <option value="Enroladinho de salsicha">
+    <option value="Quibe">
+    <option value="Empadinha salgada">
+    <option value="Empadinha doce">
+    <option value="Pastel de forno">
+    <option value="Hot Dog Simples">
+    <option value="Hot Dog Completo">
+    <option value="Hot Dog com Bacon">
+    <option value="Hot Dog com Cheddar">
+    <option value="Hot Dog Duplo">
+    <option value="Mini-pizza">
+    <option value="Misto-quente">
+    <option value="Sanduíche natural">
+    <option value="Sanduíche de frango">
+    <option value="Tapioca de queijo">
+    <option value="Tapioca de frango">
+    <option value="Tapioca de presunto e queijo">
+    <option value="Pão com queijo">
+    <option value="Pão com ovo">
+    <option value="Crepioca de queijo">
+    <option value="Crepioca de frango">
+         </datalist><br>
+         <label for="escolha o acompanhamento">escolha o acompanhamento</label>
+          <input list="acompanhamento" placeholder="Escolha o acompanhamento">
+          <datalist id="acompanhamento">
+                <option value="Batata frita">
+                <option value="Batata frita com cheddar">
+                <option value="Batata frita com bacon">
+                <option value="Calabresa acebolada">
+                <option value="Frango a passarinho">
+                <option value="Mandioca frita">
+          </datalist><br>
+          <label for="escolha a bebida">escolha a bebida</label>
+          <input list="bebidas" placeholder="escolha a bebida">
+          <datalist id="bebidas">
+                <option value="Coca-Cola lata 350 ml">
+                <option value="Guaraná Antarctica lata 350 ml">
+                <option value="Fanta Laranja lata 350 ml">
+                <option value="Sprite lata 350 ml">
+                <option value="Coca-Cola 1 litro">
+                <option value="Guaraná Antarctica 1 litro">
+                <option value="Coca-Cola 2 litros">
+                <option value="Guaraná Antarctica 2 litros">
+                <option value="Suco de laranja 300 ml">
+                <option value="Suco de limão 300 ml">
+                <option value="Suco de acerola 300 ml">
+                <option value="Suco de maracujá 300 ml">
+                <option value="Suco de goiaba 300 ml">
+                <option value="Suco de abacaxi 300 ml">
+          </datalist><br>
+        </form>
+      </div>  
+      <div class="enviar">
+        <a href="pagina9.2_pedido_enviado.html">Enviar pedido</a>
+      </div>
+    </section>
+</main>
+</body>
+</html>

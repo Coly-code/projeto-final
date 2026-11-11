@@ -1,0 +1,48 @@
+header {
+    background-color: black;
+    color:yellow;
+    padding: 20px;
+}
+
+nav {
+    background-color: crimson;
+    padding: 15px;
+}
+.opçoes a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+.opçoes a:hover{
+    color: white;
+}
+summary {
+    cursor: pointer;
+    color: white;
+}
+body{
+    background-image: url(../img/Fundo\ Chique\ de\ Lanchonete.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+}
+.combo-hamburgueres{
+    background-color: orange;
+}
+.promoçao-salgados{
+    background-color: orange;
+}
+h2{
+    color: yellow;
+}
