@@ -1,0 +1,35 @@
+header {
+    background-color: black;
+    color:yellow;
+    padding: 20px;
+}
+
+nav {
+    background-color: crimson;
+    padding: 15px;
+}
+.opçoes a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+.opçoes a:hover{
+    color: white;
+}
+summary {
+    cursor: pointer;
+    color: white;
+}
+h2{
+    color: yellow;
+}
+.historia {
+    background-color: crimson;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px;
+}
+body{
+    background-image: url(../img/Fundo\ Chique\ de\ Lanchonete.png);
+}

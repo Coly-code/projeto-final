@@ -1,0 +1,53 @@
+header {
+    background-color: black;
+    color:yellow;
+    padding: 20px;
+}
+
+nav {
+    background-color: crimson;
+    padding: 15px;
+}
+.opçoes a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+.opçoes a:hover{
+    color: white;
+}
+summary {
+    cursor: pointer;
+    color: white;
+}
+body {
+    background-image: url("../img/phplI7lTD");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+}
+.acompanhamentos{
+    background-color: yellow;
+}
+.refrigerante{
+    background-color: greenyellow;
+}
+.sucos{
+    background-color: burlywood;
+}
+h2{
+    color: yellow;
+}

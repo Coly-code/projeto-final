@@ -1,0 +1,62 @@
+header {
+    background-color: black;
+    color:yellow;
+    padding: 20px;
+}
+
+nav {
+    background-color: crimson;
+    padding: 15px;
+}
+.opçoes a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+.opçoes a:hover{
+    color: white;
+}
+summary {
+    cursor: pointer;
+    color: white;
+}
+.contatos {
+    background-color: greenyellow;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.contatos li {
+    margin-bottom: 15px;
+}
+.comnetarios {
+    background-color: greenyellow;
+    padding: 25px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+}
+.enviar{
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.enviar a {
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/ZUAXdtyX2lky1_XdG_pXJJxNFsBZ6Jed1PJyFussWSdWY4G6fmFQ7tGlWLS2z9uTrDs54eL1WIu9jZ1Q4TIOZLw2bt65psNL1Yll9KWEA-Xky0ZUjqEn4tjc6GCu2cimYkvzVD7X9fee9zmDcFic5I045LVJOfHVLFXuRKd1Dv0.jpg);
+}
+h2{
+    color: yellow;
+}
+h3{
+    color: yellow;
+}
